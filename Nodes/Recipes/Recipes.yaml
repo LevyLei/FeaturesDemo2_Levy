@@ -1,0 +1,106 @@
+Name: Recipes
+Id: g=cde40d9f9448248fbb993a3162e684a3
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema
+  Id: g=9704c71dace3a7455839b13623ef54dc
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Id: g=63b0534b5d7421808e9a291e2a3d24ca
+    Type: BaseObjectType
+    Children:
+    - Name: Component1
+      Id: g=05d52600fa9e3635a9d6ebec465363fe
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Component2
+      Id: g=1a4d33b1c597961ef4181d2bd581b69e
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Component3
+      Id: g=2c045f12bf7ab3d05a48d8a3113fb5cf
+      Type: BaseDataVariableType
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [3]
+  - Class: Reference
+    Target: ns=25;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=60
+    Direction: Forward
+  - Name: Store
+    Id: g=5b7c16bd3c7dffcdea7e55ad530fde31
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FeaturesDemo2_Levy/DataStores/EmbeddedDatabase"
+    Children:
+    - Name: Kind
+      Id: g=4a90d3877e5e6ce04d9523f268576ed8
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TableName
+    Id: g=9da649669e875034939b8e9e2f343948
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Recipes"
+  - Name: TargetNode
+    Id: g=066be0f1515464200ba721405af5facb
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FeaturesDemo2_Levy/Model/Data/Recipes"
+    Children:
+    - Name: Kind
+      Id: g=a942cb85458618f0eadfea411b6af9b1
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=0f18cb0fcb10c3ebeea8a56c682e0d25
+    Type: BaseObjectType
+    Children:
+    - Name: Component1
+      Id: g=955075e22c28b5a2521afb0bb007dfe7
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Component2
+      Id: g=e1ec1d4500e4650891159ec2d99b5129
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Component3
+      Id: g=93b98c53db117ab25f1ae788fd1212d8
+      Type: BaseDataVariableType
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [3]
